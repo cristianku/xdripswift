@@ -15,8 +15,8 @@ jobs:
     runs-on: macos-15
     steps:
       # Uncomment to manually select latest Xcode if needed
-      #- name: Select Latest Xcode
-      #  run: "sudo xcode-select --switch /Applications/Xcode_16.2.app/Contents/Developer"
+      - name: Select Latest Xcode
+        run: "sudo xcode-select --switch /Applications/Xcode_16.2.app/Contents/Developer"
       
       # Checks-out the repo
       - name: Checkout Repo
